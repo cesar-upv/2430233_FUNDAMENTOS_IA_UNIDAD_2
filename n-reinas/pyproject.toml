@@ -1,0 +1,18 @@
+[project]
+name = "n-queens-genalg"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "César Euresti", email = "euresti.mgmt@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "dearpygui>=2.3.1",
+]
+
+[project.scripts]
+n-queens-genalg = "n_queens_genalg:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
