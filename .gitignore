@@ -1,0 +1,25 @@
+# Entornos y archivos generados por Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Cachés de pruebas y herramientas
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Configuración local
+.env
+.env.*
+!.env.example
+!.env.sample
+.DS_Store
+Thumbs.db
+/n-reinas/imgui.ini
